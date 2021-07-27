@@ -18,12 +18,11 @@ function Home() {
   let history = useHistory();
   const GetDataMovies = async () => {
     const response = await GetMovies(filme);
-
     setData(response);
   };
 
   useEffect(() => {
-    GetDataMovies(filme);
+    GetDataMovies();
   },[]);
 
   console.log("teste", data);
