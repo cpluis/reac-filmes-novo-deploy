@@ -23,7 +23,6 @@ function Home() {
   };
 
   useEffect(() => {
-    filme = "hulk";
     GetDataMovies(filme);
   },[]);
 
@@ -36,6 +35,7 @@ function Home() {
             onClick={() => enviaFilme()}
             className="lupa"
             src={imagemIcon}
+            alt="imagem-icon"
           ></img>
         </div>
         <div >
