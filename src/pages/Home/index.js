@@ -13,12 +13,7 @@ function Home() {
     window.localStorage.setItem("nome", filme);
     GetDataMovies(filme);
   }
-
-
-
-
-  {<script src="path/to/p5.sound.js"></script>}
-
+  
   const [data, setData] = useState([]);
   let history = useHistory();
   let historyHome = useHistory();
@@ -34,7 +29,6 @@ function Home() {
   }, []);
 
   console.log("teste", data);
-  try {
     return (
       <div>
         <div className="input-icon">
@@ -63,9 +57,6 @@ function Home() {
         </div>
       </div>
     );
-  } catch (err) {
-    <button onClick={historyHome.push("/naoTemFilme")} />;
-  }
 }
 
 export default Home;
