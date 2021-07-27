@@ -6,7 +6,6 @@ import Cadastro from "../pages/Cadastro/index";
 import Home from "../pages/Home";
 import Movie from "../pages/Movie";
 import MovieDetails from "../pages/MovieDetails";
-import Nao_tem_filme from "../pages/Nao_tem_filme";
 import Sobre from "../pages/Sobre";
 
 function Router() {
