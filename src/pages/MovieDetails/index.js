@@ -11,11 +11,12 @@ function MovieDetails() {
   const params = useParams();
   console.log(params);
 
-  useEffect(() => {
     async function getDetails() {
       const response = await GetDetailsMovie(params.id);
       setData(response);
     }
+  
+  useEffect(() => {
     getDetails();
   },[]);
 
