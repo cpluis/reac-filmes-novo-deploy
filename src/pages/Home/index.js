@@ -16,7 +16,6 @@ function Home() {
   
   const [data, setData] = useState([]);
   let history = useHistory();
-  let historyHome = useHistory();
   const GetDataMovies = async () => {
     const response = await GetMovies(filme);
 
