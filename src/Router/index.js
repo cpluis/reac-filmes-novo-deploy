@@ -29,9 +29,6 @@ function Router() {
         <Route path="/cadastro">
           <Cadastro />
         </Route>
-        <Route path="/naoTemFilme">
-          <Nao_tem_filme />
-        </Route>
       </Switch>
       <Footer/>
     </BrowserRouter>
