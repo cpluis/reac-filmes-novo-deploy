@@ -18,7 +18,7 @@ function MovieDetails() {
       setData(response);
     }
     getDetails();
-  }, []);
+  },[]);
 
   return (
     <div className="conteudo-filme">
