@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React { useEffect, useState } from "react";
 import {  useHistory } from "react-router-dom";
 import GetMovies from "../../service/Movie/GetMovies";
 import "./style.css";
@@ -22,7 +22,7 @@ function Home() {
   };
 
   useEffect(() => {
-    GetDataMovies();
+    GetDataMovies(filme);
   },[]);
 
   console.log("teste", data);
