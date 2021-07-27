@@ -25,7 +25,7 @@ function Home() {
   useEffect(() => {
     filme = "hulk";
     GetDataMovies(filme);
-  }, []);
+  },[]);
 
   console.log("teste", data);
     return (
