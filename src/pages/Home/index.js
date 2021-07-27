@@ -39,7 +39,7 @@ function Home() {
             src={imagemIcon}
           ></img>
         </div>
-        <div className="conteudo">
+        <div >
           {data.map((item) => {
             return (
               <div className="cada-imagem" key={item.imdbID}>
