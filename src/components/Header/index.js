@@ -9,7 +9,7 @@ function Header() {
     <div className="d-flex p-2 bd-highlight">
       <div className="header-esquerda">
         <NavLink to="/">
-          <img className="logo" src={logo} />
+          <img className="logo" src={logo} alt="imagem-logo"/>
         </NavLink>
       </div>
       <div className="header-direita">
