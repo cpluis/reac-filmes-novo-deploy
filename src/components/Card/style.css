@@ -1,0 +1,28 @@
+.conteudo-filme{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    background: rgb(140, 146, 146);
+    padding-bottom: 10px;
+    padding-top: 10px;    
+}
+
+.conteudo-texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(194, 166, 55);
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgb(17, 5, 197);
+    padding-left: 15px;  
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 5px;  
+    font-size: 14px;
+    line-height: 0.5;
+    padding-bottom: 15px;
+    
+}
+
+.imagem-card{
+    border-radius: 12px;
+    box-shadow: inset 0 0 1em gold, 0 0 2em rgb(241, 2, 2);   
+}
