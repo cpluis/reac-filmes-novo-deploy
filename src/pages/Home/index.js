@@ -5,11 +5,10 @@ import "./style.css";
 import imagemIcon from "../../imagem/iconLupa.png";
 
 function Home() {
-  let filme = "";
-  async function enviaFilme() {
-    let input = document.querySelector(".input").value;
 
-    filme = input;
+  async function enviaFilme() {
+    let filme = document.querySelector(".input").value;
+    
     window.localStorage.setItem("nome", filme);
     GetDataMovies(filme);
   }
