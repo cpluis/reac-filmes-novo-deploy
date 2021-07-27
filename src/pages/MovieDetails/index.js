@@ -14,7 +14,6 @@ function MovieDetails() {
   useEffect(() => {
     async function getDetails() {
       const response = await GetDetailsMovie(params.id);
-      console.log("dados", response);
       setData(response);
     }
     getDetails();
